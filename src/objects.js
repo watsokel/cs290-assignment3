@@ -44,15 +44,44 @@ function returnObjectLiteral() {
 */
 
 //your code here
-/*function MessageLog(user){
+function MessageLog(user){
   this.user = user;
-  this.LogMessage = function(messageText, direction){
-    if(direction == 0) return messageText ' was sent by ' + this.user;
-    else if(direction == 1) return messageText 'was received by ' + this.user;
-    else return undefined;
-  };
-
-}*/
+  this.messagesSent = 0;
+  this.messagesReceived = 0;
+  this.sentArray = [];
+  this.mostRecentlyReceived = '';
+  this.logMessage = function(messageText, direction) {
+    if(direction === 0) {  //sent
+      //if(this.sentArray.length > 5) {
+        this.sentArray.unshift(messageText);
+        this.sentArray.length = 5;
+        //var temporaryObject = {direction: 0, message: messageText};
+        //this.sentArray[0] = temporaryObject;
+        this.messagesSent++;
+      //}
+      //else {
+        //var temporaryObject = {direction: 0, message: messageText};
+        //this.sentArray.push(temporaryObject);
+        //this.messagesSent++;
+      //}
+    }
+    else if(direction === 1) { //received
+      mostRecentlyReceived = messageText;
+      this.messagesReceived++; 
+    }
+  }
+  this.getSentMessage = function(n) {
+    if(n>=0 && n<=5) return this.sentArray[n]
+    else 
+      return 'Out of range. Please specify a message number between 0 and 4: ';
+  }
+  this.totalSent = function() {
+    return this.messagesSent;
+  }
+  this.totalReceived = function() {
+    return this.messagesReceived;
+  }
+}
 //end your code
 
 /**
@@ -61,7 +90,7 @@ function returnObjectLiteral() {
 * received.
 */
 //your code here
-
+MessageLog.prototype.lastReceivedMessage = function(){ return mostRecentlyReceived; }
 //end your code
 
 /**
@@ -70,6 +99,7 @@ function returnObjectLiteral() {
 * Assign it to the variable myLog.
 */
 
+var mLog = new MessageLog('BlackHatGuy');
 //your code here
 
 //end your code

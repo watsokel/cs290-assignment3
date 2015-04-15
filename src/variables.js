@@ -10,9 +10,9 @@ in input `a`
 a: the original a number
 */
 function variableModification(a) {
-  var plus5;
-  var asString;
-  var yourNumberIs;
+  var plus5 = 5 + a;
+  var asString = a.toString();
+  var yourNumberIs = 'Your Number is ' + asString;
   //your code here
 
   //end your code
@@ -29,7 +29,12 @@ false otherwise
 */
 function isString(b) {
   //your code here
-  return undefined;
+  if(typeof b == 'string'){
+    return true;
+  } 
+  else {
+    return false;
+  }
   //end your code
 }
 
@@ -42,6 +47,12 @@ return true if c is null, false otherwise
 */
 function isNull(c) {
   //your code here
-  return undefined;
+  if((c === null) || (typeof c === undefined) || (c === NaN)) {
+    return true;
+  }
+  else { 
+    return false;
+  }
   //end your code
 }
+
