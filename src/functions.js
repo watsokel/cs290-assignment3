@@ -75,13 +75,17 @@ function GitLog(hash, date, message) {
 * @return {array.<GitLog>} - return an array GitLog instances
 */
 
-//your code here
-/*function parseGit(logArray){
+function parseGit(logArray) {
   var gitLogArray = [];
-  for(var k = 0; k < logArray.length; k++) {
-    var logEntry = {hash: }
-    gitLogArray.push()
-
+  for (var k = 0; k < logArray.length; k++) {
+    var commitHash = logArray[k].substring(0,7);
+    var dateSubString = logArray[k].substring(8,39);
+    var commitDate = new Date(dateSubString);
+    var commitMessage = logArray[k].substring(39); 
+    var commitMessage = commitMessage.trim();
+    commitMessage = commitMessage.replace(/["]+/g,'');
+    var tempEntry = new GitLog(commitHash, commitDate, commitMessage.trim());
+    gitLogArray.push(tempEntry);
+  }
   return gitLogArray;
-}*/
-//end your code
+}
