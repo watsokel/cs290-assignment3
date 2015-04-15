@@ -9,15 +9,13 @@
 */
 
 function returnObjectLiteral() {
-  //your code here
   var obj = { 
     type: 'Goldfish',
     brand: 'Pepperidge Farm',
     flavor: 'Cheddar',
     count: 2000
   };
-  return obj; //Modify ONLY this line
-  //end your code
+  return obj;
 }
 
 /**
@@ -43,7 +41,6 @@ function returnObjectLiteral() {
 * received
 */
 
-//your code here
 function MessageLog(user){
   this.user = user;
   this.messagesSent = 0;
@@ -52,18 +49,9 @@ function MessageLog(user){
   this.mostRecentlyReceived = '';
   this.logMessage = function(messageText, direction) {
     if(direction === 0) {  //sent
-      //if(this.sentArray.length > 5) {
         this.sentArray.unshift(messageText);
         this.sentArray.length = 5;
-        //var temporaryObject = {direction: 0, message: messageText};
-        //this.sentArray[0] = temporaryObject;
         this.messagesSent++;
-      //}
-      //else {
-        //var temporaryObject = {direction: 0, message: messageText};
-        //this.sentArray.push(temporaryObject);
-        //this.messagesSent++;
-      //}
     }
     else if(direction === 1) { //received
       mostRecentlyReceived = messageText;
@@ -82,16 +70,13 @@ function MessageLog(user){
     return this.messagesReceived;
   }
 }
-//end your code
 
 /**
 * Add a method to the MessageLog prototype:
 * lastReceivedMessage() - returns the message text of the last message the user
 * received.
 */
-//your code here
 MessageLog.prototype.lastReceivedMessage = function(){ return mostRecentlyReceived; }
-//end your code
 
 /**
 * Create an instance of a `MessageLog` for the user "BlackHatGuy". Have the
@@ -99,7 +84,8 @@ MessageLog.prototype.lastReceivedMessage = function(){ return mostRecentlyReceiv
 * Assign it to the variable myLog.
 */
 
-var mLog = new MessageLog('BlackHatGuy');
-//your code here
-
-//end your code
+var myLog = new MessageLog('BlackHatGuy');
+myLog.logMessage('foo', 1);
+myLog.logMessage('bar', 1);
+myLog.logMessage('baz', 1);
+var numberOfMessagesReceived = myLog.totalReceived();
