@@ -9,6 +9,7 @@ yourNumberIs: a string that says "Your Number is `x`." where `x` is replaced by
 in input `a`
 a: the original a number
 */
+
 function variableModification(a) {
   var plus5 = 5 + a;
   var asString = a.toString();
@@ -24,13 +25,12 @@ Output:
 return true if b is a primitive string value (also known as a string literal),
 false otherwise
 */
+
 function isString(b) {
-  if(typeof b == 'string'){
+  if (typeof b === 'string') {
     return true;
-  } 
-  else {
-    return false;
   }
+  return false;
 }
 
 /*
@@ -40,11 +40,10 @@ c: could be anything
 Output:
 return true if c is null, false otherwise
 */
+
 function isNull(c) {
-  if(c === null) {
+  if (c === null) {
     return true;
   }
-  else { 
-    return false;
-  }
+  return false;
 }

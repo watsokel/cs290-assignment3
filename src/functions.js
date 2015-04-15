@@ -12,11 +12,9 @@
 * @return {null} - 'useless'.
 */
 
-//your code here
 function uselessFunction() {
   return null;
 }
-//end your code
 
 var bar = 'not a function';
 var barType = typeof bar;
@@ -31,7 +29,6 @@ var barType = typeof bar;
 * This should return false if any value in the array cannot be doubled.
 */
 
-//your code here
 bar = function(doubleArray){
   for(var k = 0; k < doubleArray.length; k++) {
     if(typeof doubleArray[k] === 'number') 
@@ -41,7 +38,6 @@ bar = function(doubleArray){
   }
   return true; 
 }
-//end your code
 
 /**
 * Creates a new GitLog

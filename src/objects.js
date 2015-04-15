@@ -9,7 +9,7 @@
 */
 
 function returnObjectLiteral() {
-  var obj = { 
+  var obj = {
     type: 'Goldfish',
     brand: 'Pepperidge Farm',
     flavor: 'Cheddar',
@@ -41,21 +41,20 @@ function returnObjectLiteral() {
 * received
 */
 
-function MessageLog(user){
+function MessageLog(user) {
   this.user = user;
   this.messagesSent = 0;
   this.messagesReceived = 0;
   this.sentArray = [];
   this.mostRecentlyReceived = '';
   this.logMessage = function(messageText, direction) {
-    if(direction === 0) {  //sent
-        this.sentArray.unshift(messageText);
-        this.sentArray.length = 5;
-        this.messagesSent++;
-    }
-    else if(direction === 1) { //received
+    if (direction === 0) {  //sent
+      this.sentArray.unshift(messageText);
+      this.sentArray.length = 5;
+      this.messagesSent++;
+    } else if (direction === 1) {
       mostRecentlyReceived = messageText;
-      this.messagesReceived++; 
+      this.messagesReceived++;
     }
   }
   this.getSentMessage = function(n) {
@@ -76,7 +75,7 @@ function MessageLog(user){
 * lastReceivedMessage() - returns the message text of the last message the user
 * received.
 */
-MessageLog.prototype.lastReceivedMessage = function(){ return mostRecentlyReceived; }
+MessageLog.prototype.lastReceivedMessage = function(){return mostRecentlyReceived;}
 
 /**
 * Create an instance of a `MessageLog` for the user "BlackHatGuy". Have the
