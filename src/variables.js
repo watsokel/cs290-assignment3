@@ -13,9 +13,6 @@ function variableModification(a) {
   var plus5 = 5 + a;
   var asString = a.toString();
   var yourNumberIs = 'Your Number is ' + asString;
-  //your code here
-
-  //end your code
   return [plus5, asString, yourNumberIs, a];
 }
 
@@ -28,14 +25,12 @@ return true if b is a primitive string value (also known as a string literal),
 false otherwise
 */
 function isString(b) {
-  //your code here
   if(typeof b == 'string'){
     return true;
   } 
   else {
     return false;
   }
-  //end your code
 }
 
 /*
@@ -46,13 +41,10 @@ Output:
 return true if c is null, false otherwise
 */
 function isNull(c) {
-  //your code here
-  if((c === null) || (typeof c === undefined) || (c === NaN)) {
+  if(c === null) {
     return true;
   }
   else { 
     return false;
   }
-  //end your code
 }
-
