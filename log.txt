@@ -1,1 +1,27 @@
-You log goes in this  file.
+Start: Tue, 14 Apr 2015 18:17:36 -0700
+End: Tue, 14 Apr 2015 18:52:24 -0700
+Tasks: Finally resolved the MessageLog test regarding the most recent message S 5. The problem I had was that I saved the messages as objects, rather than keeping them as strings. Also, I noticed that I had reversed the order of the array and should have been using the unshift array function, rather than the shift array function.
+
+Start: Tue, 14 Apr 2015 16:20:46 -0700
+End: Tue, 14 Apr 2015 18:17:35 -0700
+Tasks: Completed the bar function after 30 minutes. I needed to ensure that the typeof doubleArray[k] is a number prior to performing the multiplication.
+
+Start: Tue, 14 Apr 2015 15:43:57 -0700
+End: Tue, 14 Apr 2015 16:20:47 -0700
+Tasks: Completed writing returnObjectLiteral function, and test passed.
+
+Start: Tue, 14 Apr 2015 15:27:33 -0700
+End: Tue, 14 Apr 2015 15:43:56 -0700
+Tasks: Resolved the conflict between README.md on my repo and the one on the course cs290 assignment3 repo.
+
+Start: Tue, 14 Apr 2015 15:27:00 -0700
+End: Tue, 14 Apr 2015 15:27:32 -0700
+Tasks: Initial commit
+
+Start: Sun, 12 Apr 2015 03:54:42 -0700
+End: Sun, 12 Apr 2015 03:54:42 -0700
+Tasks: Modified TA account
+
+Start: Sun, 12 Apr 2015 03:46:55 -0700
+End: Sun, 12 Apr 2015 03:46:55 -0700
+Tasks: initial commit
