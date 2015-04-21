@@ -1,3 +1,19 @@
+Assignment 3 Part 2 Tasks
+
+Start:
+End:
+Tasks: added a displayResults function to display a table. However, it is not yet working as desired. It does not currently display the results of a search.
+
+Start
+End:
+Tasks: Modified the makeRequest function to retrieve only the first page onclick, so that subsequent page selections on the HTML page will trigger requests for subsequent pages."
+
+Start:
+End:
+Tasks: Set up the AJAX call and basic HTML form elements.
+
+Assignment 3 Part 1 Tasks
+
 Start: Tue, 14 Apr 2015 23:03:35 -0700
 End: Tue, 14 Apr 2015 23:14:15 -0700
 Tasks: Used JSLint.com, a JavaScript code quality tool to check for syntatical errors.
