@@ -1,20 +1,26 @@
 Assignment 3 Part 2 Tasks
 
 Start:
-End:
+End: Tue, 21 Apr 2015 15:28:08 -0700 
+Tasks: Successfully converted URL's to links"
+
+Start:
+End: Tue, 21 Apr 2015 14:47:40 -0700
 Tasks: Table finally appears. Languages are currently returning as undefined.
 
 Start:
-End:
+End: Tue, 21 Apr 2015 13:21:35 -0700
 Tasks: added a displayResults function to display a table. However, it is not yet working as desired. It does not currently display the results of a search.
 
-Start
-End:
+End: Tue, 21 Apr 2015 11:56:05 -0700
 Tasks: Modified the makeRequest function to retrieve only the first page onclick, so that subsequent page selections on the HTML page will trigger requests for subsequent pages."
 
 Start:
-End:
+End: Tue, 21 Apr 2015 11:50:29 -0700
 Tasks: Set up the AJAX call and basic HTML form elements.
+
+End: Tue, 21 Apr 2015 08:33:22 -0700
+Tasks: Updated README.md
 
 Assignment 3 Part 1 Tasks
 
