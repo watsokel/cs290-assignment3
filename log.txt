@@ -2,6 +2,10 @@ Assignment 3 Part 2 Tasks
 
 Start:
 End:
+Tasks: Table finally appears. Languages are currently returning as undefined.
+
+Start:
+End:
 Tasks: added a displayResults function to display a table. However, it is not yet working as desired. It does not currently display the results of a search.
 
 Start
