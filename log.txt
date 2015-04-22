@@ -1,6 +1,11 @@
 Assignment 3 Part 2 Tasks
 
 Start:
+End:
+Tasks: Added additional languages as a test to ensure results are being retrieved correctly. Currently, results are still being appended to the page
+, which is undesired. Added the favorites button."
+
+Start:
 End: Tue, 21 Apr 2015 15:28:08 -0700 
 Tasks: Successfully converted URL's to links"
 
