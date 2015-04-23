@@ -1,29 +1,76 @@
+Note: Log Entries are from most recent to least recent.
+
 Assignment 3 Part 2 Tasks
 
-Start:
-End:
-Tasks: Added additional languages as a test to ensure results are being retrieved correctly. Currently, results are still being appended to the page
-, which is undesired. Added the favorites button."
+Start: Thu, 23 Apr 2015 000:30:00 -0700
+End: Thu, 23 Apr 2015 01:01:07 -0700
+Tasks: Added more CSS styling to tables.
 
-Start:
-End: Tue, 21 Apr 2015 15:28:08 -0700 
-Tasks: Successfully converted URL's to links"
+Start: Thu, 23 Apr 2015 00:05:46 -0700
+End: Thu, 23 Apr 2015 00:21:46 -0700
+Tasks: Added CSS styling to tables and form elements (fieldset, legend and submit button)
 
-Start:
+Start: Wed, 22 Apr 2015 23:19:00 -0700
+End: Wed, 22 Apr 2015 23:26:29 -0700
+Tasks: Added table styling. Added code to remove a p element from the DOM once a table loads, making
+
+Start: Wed, 22 Apr 2015 23:16:00 -0700
+End: Wed, 22 Apr 2015 23:18:00 -0700
+Tasks: Modified the pageLink.onclick function for page navigation to make use of the value of event.
+
+Start: Wed, 22 Apr 2015 22:19:00 -0700
+End: Wed, 22 Apr 2015 22:57:08 -0700
+Tasks: Successfully removed the no favorites paragraph from the DOM on favorites added
+
+Start: Wed, 22 Apr 2015 22:38:00 -0700
+End: Wed, 22 Apr 2015 22:18:48 -0700
+Tasks: Finally got my definition/description list printing the the correct definition and terms as t
+
+Start: Wed, 22 Apr 2015 19:00:00 -0700
+End: Wed, 22 Apr 2015 20:37:56 -0700
+Tasks: attempting to create a definition/description list to hold favorites. Cannot seem to locate t
+
+Start: Wed, 22 Apr 2015 17:00:00 -0700
+End: Wed, 22 Apr 2015 18:06:45 -0700
+Tasks: implemented favorite buttons to save to local storage. Seems to store stringified objects cor
+
+Start: Wed, 22 Apr 2015 13:30:53 -0700
+End: Wed, 22 Apr 2015 14:00:04 -0700
+Tasks: modified the CSS layout to allow favorites to appear below the search form
+
+Start: Wed, 22 Apr 2015 09:24:00 -0700
+End: Wed, 22 Apr 2015 13:30:52 -0700
+Tasks: added a new <section> to the HTML document for favorited Gists
+
+Start: End: Tue, 21 Apr 2015 17:43:00 -0700
+End: Wed, 22 Apr 2015 09:23:24 -0700
+Tasks: Corrected the appending behavior of the table and page navigator
+
+Start: Tue, 21 Apr 2015 16:00:00 -0700
+End: Tue, 21 Apr 2015 17:42:54 -0700
+Tasks: Added additional languages as a test to ensure results are being retrieved correctly. Current
+
+Start: Tue, 21 Apr 2015 14:50:00 -0700
+End: Tue, 21 Apr 2015 15:28:08 -0700
+Tasks: Successfully converted URL's to links
+
+Start: Tue, 21 Apr 2015 13:22:00 -0700
 End: Tue, 21 Apr 2015 14:47:40 -0700
 Tasks: Table finally appears. Languages are currently returning as undefined.
 
-Start:
+Start: Tue, 21 Apr 2015 12:00:00 -0700
 End: Tue, 21 Apr 2015 13:21:35 -0700
 Tasks: added a displayResults function to display a table. However, it is not yet working as desired. It does not currently display the results of a search.
 
+Start: Tue, 21 Apr 2015 11:51:00 -0700
 End: Tue, 21 Apr 2015 11:56:05 -0700
 Tasks: Modified the makeRequest function to retrieve only the first page onclick, so that subsequent page selections on the HTML page will trigger requests for subsequent pages."
 
-Start:
+Start: Tue, 21 Apr 2015 10:50:00 -0700
 End: Tue, 21 Apr 2015 11:50:29 -0700
 Tasks: Set up the AJAX call and basic HTML form elements.
 
+Start: Tue, 21 Apr 2015 08:30:00 -0700
 End: Tue, 21 Apr 2015 08:33:22 -0700
 Tasks: Updated README.md
 
