@@ -2,6 +2,14 @@ Note: Log Entries are from most recent to least recent.
 
 Assignment 3 Part 2 Tasks
 
+Start: Thu Apr 23 14:20:17 2015 -0700 
+End: Thu Apr 23 14:21:30 2015 -0700
+Tasks: Debugging the no favorites yet paragraph to make sure it appears and disappears as appropriate
+
+Start: Thu Apr 23 08:30:00 2015 -0700
+End: Thu Apr 23 14:20:16 2015 -0700
+Tasks: Modified definition list to conform to requirements of displaying description and URL.
+
 Start: Thu, 23 Apr 2015 000:30:00 -0700
 End: Thu, 23 Apr 2015 01:01:07 -0700
 Tasks: Added more CSS styling to tables.
@@ -42,7 +50,7 @@ Start: Wed, 22 Apr 2015 09:24:00 -0700
 End: Wed, 22 Apr 2015 13:30:52 -0700
 Tasks: added a new <section> to the HTML document for favorited Gists
 
-Start: End: Tue, 21 Apr 2015 17:43:00 -0700
+Start: Tue, 21 Apr 2015 17:43:00 -0700
 End: Wed, 22 Apr 2015 09:23:24 -0700
 Tasks: Corrected the appending behavior of the table and page navigator
 
