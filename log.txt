@@ -2,6 +2,14 @@ Note: Log Entries are from most recent to least recent.
 
 Assignment 3 Part 2 Tasks
 
+Start: Thu 23 Apr 2015 20:35:00 -0700
+End: Thu 23 Apr 2015 20:36:37 -0700
+Tasks: Removed extraneous comments
+
+Start: Thu 23 Apr 2015 18:30:00 -0700
+End: Thu 23 Apr 2015 20:34:31 -0700
+Tasks: added CSS styling (banner, buttons)
+
 Start: Thu Apr 23 14:20:17 2015 -0700 
 End: Thu Apr 23 14:21:30 2015 -0700
 Tasks: Debugging the no favorites yet paragraph to make sure it appears and disappears as appropriate
