@@ -2,6 +2,10 @@ Note: Log Entries are from most recent to least recent.
 
 ***Assignment 3 Part 2 Tasks***
 
+Start: Sun, 26 Apr 2015 11:50:00 -0700
+End:Sun, 26 Apr 2015 11:53:55 -0700
+Tasks: added the ability to print 'no description' when no gist description is available.
+
 Start: Sun, 26 Apr 2015 10:35:00 -0700
 End: Sun, 26 Apr 2015 11:37:21 -0700
 Tasks: corrected compatibility issues with Safari and Internet Explorer with the .remove() function
