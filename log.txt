@@ -1,6 +1,26 @@
 Note: Log Entries are from most recent to least recent.
 
-Assignment 3 Part 2 Tasks
+***Assignment 3 Part 2 Tasks***
+
+Start: Sun, 26 Apr 2015 10:35:00 -0700
+End: Sun, 26 Apr 2015 11:37:21 -0700
+Tasks: corrected compatibility issues with Safari and Internet Explorer with the .remove() function
+
+Start: Sun, 26 Apr 2015 09:30:00 -0700
+End: Sun, 26 Apr 2015 10:33:34 -0700
+Tasks: correct .remove() function to .removeNode for IE compatibility
+
+Start: Sat, 25 Apr 2015 17:00:00 -0700
+End: Sat, 25 Apr 2015 17:16:42 -0700
+Tasks: Changed the name of the HTML file to index.html
+
+Start: Fri, 24 Apr 2015 10:30:00 -0700
+End: Fri, 24 Apr 2015 11:33:39 -0700
+Tasks: Modified the styling of the nav bar to be more above the search results
+
+Start: Thu, 23 Apr 2015 21:00:00 -0700
+End: Thu, 23 Apr 2015 21:02:35 -0700
+Tasks: changed the html file name to index.html
 
 Start: Thu 23 Apr 2015 20:35:00 -0700
 End: Thu 23 Apr 2015 20:36:37 -0700
@@ -90,7 +110,7 @@ Start: Tue, 21 Apr 2015 08:30:00 -0700
 End: Tue, 21 Apr 2015 08:33:22 -0700
 Tasks: Updated README.md
 
-Assignment 3 Part 1 Tasks
+***Assignment 3 Part 1 Tasks***
 
 Start: Tue, 14 Apr 2015 23:03:35 -0700
 End: Tue, 14 Apr 2015 23:14:15 -0700
